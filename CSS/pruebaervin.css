@@ -8,6 +8,8 @@ HEAD{
     background-image: url(img/figura1) ;
 }
 
+
+
 .inscripcion{
    
     width: 400px;
@@ -29,21 +31,51 @@ HEAD{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#inicio {
-    background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url();
+#Inicio {
+    
+    background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url(../img/figura1vale.jpg);
     background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h2{
+        color: white;
+        font-size: 50px;
+        text-align: left;
+        padding-left: 80px;
+        padding-top: 80px;
+        width: 30%;
+    }
+    p{
+        color: white;
+        font-size: 18px;
+        width: 40%;
+        margin: 80px;  
+    }
 }
 
 a{
     color: rgb(10, 10, 10);
     text-decoration: none;
+    font-size: 20px;
+
 }
 
 nav a{
-    font-weight: 590
-    ;
+    font-weight: 590;
+    margin-left: 20px;
 }
 
 nav a:hover{
-    color: #8a8ae7;
+    color: #9797dd;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:whitesmoke;
+  padding: 15px;
+ 
 }
