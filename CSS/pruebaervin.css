@@ -1,5 +1,5 @@
-#inicio{
 
+<<<<<<< HEAD
     background-image: url(img/figura1) ;
 }
 .inscripcion{
@@ -24,3 +24,30 @@
 
 
 }
+=======
+                    
+
+
+#inicio {
+    background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url();
+    background-position: center center;
+}
+header{
+
+
+}
+a  {
+    
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+nav a{
+    font-weight: 590
+    ;
+}
+
+nav a:hover{
+
+    color: #8a8ae7;
+}
+>>>>>>> 9ef0090e4c23ca5b4f0eba93fb838958497c31b6
